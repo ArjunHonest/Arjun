@@ -1,10 +1,38 @@
-.flex{
+.font{
+    color: aliceblue;
     display: flex;
+    text-align: center;
     justify-content: space-between;
+    padding-left: 1216px;
+    margin-top: -115px;
+    position: fixed;
     
+
+}
+.font2{
+    color: aliceblue;
+    margin-top: -17px;
+}
+.font1{
     
+    margin-bottom: -100px;
+
 }
-.flex2{
-    display: flex;
-    justify-content: space-between;
+.font3{
+    background-color: black;
+
 }
+.font4{
+
+    color: aliceblue;
+}
+.font5{
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    margin-top: 100px;
+    
+
+
+}
+    
