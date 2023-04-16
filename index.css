@@ -1,38 +1,53 @@
-.font{
-    color: aliceblue;
+body{
+    margin: 0;
+}
+
+
+*{
+    background-color: black;
+}
+
+.header{
     display: flex;
-    text-align: center;
     justify-content: space-between;
-    padding-left: 1216px;
-    margin-top: -115px;
-    position: fixed;
-    
+    align-items: center;
+}
+
+.header_left{
+    color: white;
+    font-size: 10px;
+    margin-left: 17px;
+}
+
+.header_right{
+    display: flex;
+    gap: 10px;
+    color: white;
+    margin-right: 15px;
+}
+
+.name{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 29px;
+    margin-left: 15px;
 
 }
-.font2{
-    color: aliceblue;
-    margin-top: -17px;
-}
-.font1{
-    
-    margin-bottom: -100px;
+
+.name h4{
+    margin-left: 40px;
 
 }
-.font3{
-    background-color: black;
 
+.content{
+    margin-bottom: 150px;
+    margin-top: 150px;
 }
-.font4{
 
-    color: aliceblue;
+.footer{
+    border-bottom: 10px solid white;
+    margin: 0 auto;
+    width: 20%;
+    border-radius: 10px;
 }
-.font5{
-    
-    background-color: black;
-    text-align: center;
-    margin-top: 100px;
-    
-
-
-}
-    
