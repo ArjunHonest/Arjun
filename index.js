@@ -1,6 +1,9 @@
- const array = ["arjun","ram","suryam","jay","arjun","ram","suryam","jay"];
-let uniquechars=array.filter((rar,index,arr)=>{
-    return arr.indexOf(rar) ===index;
+const str="16461"
+reversestr=str.split("").reverse().join("")
+if (str===reversestr){
+    console.log("palindrome")
 
-});
-console.log(uniquechars)
+}else{
+    console.log("not a palindrome")
+
+}
